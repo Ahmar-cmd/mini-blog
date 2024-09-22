@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .body{
+    height: 100vh;
+    width: 100vw;
+    }
+    .container{
+    height: 85vh;
+    width: 70vw;
+    background-color: white;
+    margin: 0 13rem;
+    gap: 0.6rem;
+    display: flex;
+    justify-content: center;
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(230px,260px));
+     grid-template-rows: repeat(auto-fit,minmax(300px,340px));
+    /* grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns:repeat(4,1fr) ;  */
+} 
+/* @media only screen and (max-width:1228px){
+    .container{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:1022px){
+    .container{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:665px){
+    .container{
+        grid-template-rows: repeat(8,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+} */
+
+header{
+     text-align: center;
+     max-width: 600px;
+    text-align: center;
+    margin: 0 24rem;
+}
+header p{
+     padding-top: 0.3rem ;
+}
+
+/* .....div1 starts here.... */
+
+.div1{
+    height: 310px ;
+    width: 240px;
+    border: solid rgb(223, 217, 217) 1px;
+    border-radius: 0 0 8px 8px;
+    margin: 0px 7px 7px 7px;  
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+}
+.div1:hover{
+   transform: scale(1.05);
+}
+.div1 h4{
+    margin: 6px 0 5px 0;
+   text-align: center;
+   
+}
+.div1 h4 a{
+    text-decoration: none;
+    color: black;
+}
+.div1 p{
+      padding-left: 10px ;
+    font-size: 13px;
+    /* border: solid 1px black; */
+    
+}
+.div1 img{
+    height: 11rem;
+    width: 16rem;
+    margin-right: 12px;  
+}
+
+.profile1{
+    background-color: beige;
+    /* border: solid black 3px; */
+    height: 35px;
+    width: 220px ;
+    margin: 12px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+
+}
+.avatarimg img{
+    height: 27px;
+    width: 30px;
+    border: solid rgba(184, 180, 180, 0.897) 1px; 
+    border-radius: 35px;
+    margin: 5px ;
+    overflow: hidden;
+}
+.avatar1{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    font-size: 10px;
+    
+    padding: 5px 0 2px 1.5px;
+    /* border: solid black 1.5px; */
+    display: flex;
+    flex-direction: column;
+}
+.details a{
+    text-decoration: none;
+    color: black;
+    transition: all;
+}
+.details a:hover{
+    color: rgb(26, 26, 244)
+}
+.button1{
+    border: solid rgb(183, 178, 178) 1px;
+    border-radius: 3px;
+     padding-left: 5px;
+    font-size: 10px;
+    height: 15px;
+    width: 60px;
+    margin: 12px 0 0 40px;
+}
+
+   /* ......div1 ends here...... */
+
